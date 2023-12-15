@@ -35,7 +35,7 @@ def run():
     
     
     # распаковываем датасеты 
-    folder_path = r'/Users/darkstrouk/Documents/МОВС Магистратура/Прикладной Python/hw_1/stepik_linear_models/datasets'
+    folder_path = r'./datasets'
     
     cnt = 1
     for file_name in os.listdir(folder_path):
